@@ -4,8 +4,12 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * VM Args：-XX:PermSize=6M -XX:MaxPermSize=6M
+ * VM Args：
+ * JDK6:-XX:PermSize=6M -XX:MaxPermSize=6M   限制永久代大小
+ * JDK8:-XX:MaxMetaspaceSize=6M  限制元空间/方法区
+ * -Xmx6M :限制堆大小
  *
+ * 限制方法区会无限循环  因为字符串常量池在堆中
  * @author zzm
  */
 public class RuntimeConstantPoolOOM_1 {

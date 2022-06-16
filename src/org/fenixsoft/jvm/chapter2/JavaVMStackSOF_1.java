@@ -2,7 +2,9 @@ package org.fenixsoft.jvm.chapter2;
 
 /**
  * VM Args：-Xss128k
- *
+ * The Java thread stack size specified is too small. Specify at least 208k
+ * 228k :1122
+ * 512k :5050
  * @author zzm
  */
 public class JavaVMStackSOF_1 {
