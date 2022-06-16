@@ -6,7 +6,7 @@ import java.lang.reflect.Field;
 
 /**
  * VM Args：-Xmx20M -XX:MaxDirectMemorySize=10M
- *
+ * 这个实验没成功 程序正常结束了
  * @author zzm
  */
 public class DirectMemoryOOM {
